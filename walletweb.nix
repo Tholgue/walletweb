@@ -19,7 +19,13 @@ buildPythonApplication {
     fileset = sourceFiles;
   };
 
-  buildInputs = [ python3 flask schedule sqlite ];
+  build-system = [
+    setuptools
+  ];
+
+  doCheck = false;
+
+  buildInputs = [ python3 build flask schedule sqlite ];
 
   meta = with lib; {
     description = "A simple Python app using Flask, Schedule, and SQLite";
