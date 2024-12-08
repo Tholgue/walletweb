@@ -2,3 +2,4 @@ result
 compteur.db
 dist
 dist/**/*/
+*.egg-info

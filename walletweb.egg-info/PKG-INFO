@@ -1,8 +1,0 @@
-Metadata-Version: 2.1
-Name: walletweb
-Version: 0.0.1
-Requires-Dist: python3
-Requires-Dist: flask
-Requires-Dist: schedule
-Requires-Dist: sqlite
-Requires-Dist: pytz

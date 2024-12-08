@@ -1,9 +1,0 @@
-setup.py
-walletweb/__main__.py
-walletweb/app.py
-walletweb/job.py
-walletweb.egg-info/PKG-INFO
-walletweb.egg-info/SOURCES.txt
-walletweb.egg-info/dependency_links.txt
-walletweb.egg-info/requires.txt
-walletweb.egg-info/top_level.txt
