@@ -2,7 +2,7 @@
 let
   fs = lib.fileset;
   sourceFiles = fs.unions [
-    ./walletweb
+    ./src
   ];
 in
 
@@ -12,7 +12,7 @@ buildPythonApplication {
   version = "1.0";
 
   src = fs.toSource {
-    root = ./walletweb;
+    root = ./src;
     fileset = sourceFiles;
   };
 
@@ -22,7 +22,7 @@ buildPythonApplication {
 
   doCheck = false;
 
-  buildInputs = [ python3 build flask schedule pytz gunicorn];
+  buildInputs = [ build flask schedule pytz gunicorn pip];
 
   meta = with lib; {
     description = "A simple Python app using Flask, Schedule, and SQLite";
