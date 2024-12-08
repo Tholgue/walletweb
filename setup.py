@@ -7,6 +7,7 @@ setup(
         'python3',
         'flask',
         'schedule',
-        'sqlite'
+        'sqlite',
+        'pytz'
     ],
 )
