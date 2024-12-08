@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Compteur d'Argent</title>
+    <link rel="stylesheet" href="https://unpkg.com/mvp.css"> 
+    <link rel="stylesheet" href="static/styles.css"> 
+</head>
+<body>
+    <h1 id="compteur">Chargement...</h1>
+    <h2>5 dernières dépenses</h2>
+    <table id="depenses">
+        <thead>
+            <th>Montant</th>
+            <th>Date</th>
+        </thread>
+        <tbody></tbody>
+    </table>
+    <h2>Ajouter une Dépense</h2>
+    <input type="number" id="montant" placeholder="Montant">
+    <button onclick="ajouterDepense()">Ajouter</button>
+    <h2>Définir montant</h2>
+    <input type="number" id="montant_def" placeholder="Montant">
+    <button onclick="definirMontant()">Définir</button>
+    <script src="/static/script.js"></script>
+</body>
+</html>
