@@ -3,3 +3,4 @@ compteur.db
 dist
 dist/**/*/
 *.egg-info
+.vscode
